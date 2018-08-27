@@ -1,0 +1,40 @@
+$purpura: #4F1C55;
+$rosa: #EC164E;
+$amarillo: #FAB842;
+$color: #1D9C73;
+$control: carousel-control-;
+/*###### MEDIDAS ######*/
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$fullscreen: 1280px;
+.carousel-inner img {
+    margin: auto;
+}
+.carousel-inner{
+    @media screen and (min-width: $desktop) {
+        height: 600px;
+    }
+}
+
+.carousel-indicators{
+    li{
+        height: 10px;
+        width: 50px;
+        background-color: aliceblue;
+        transition: all .4s ease;
+        cursor: pointer;
+    }
+    .active{
+        background-color: $color;
+    }
+}
+.#{$control}prev, .#{$control}next{
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease;
+    background-color: $color;
+    border: 1px solid darken($color,15%);
+}

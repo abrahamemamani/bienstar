@@ -1,0 +1,21 @@
+.services-wrapper{
+    background-color: #fff;
+    padding: 15px 0;
+    & > .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-card{
+        text-align: center;
+        color: darken(#666,15%);
+        span[class^="fas"]{
+            color: #40BED7;
+            font-size: 2em;
+        }
+        .services__text{
+            @media screen and (min-width: 768px) {
+                text-align: left;
+            }
+        }
+    }
+}

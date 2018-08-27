@@ -1,0 +1,31 @@
+/*###### INICIALIZACION DE PROPIEDADES ######*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+button, input[type^="submit"], input[type^="button"], select{
+    cursor: pointer;
+}
+button, input, select{
+    outline: 0;
+}
+hr{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

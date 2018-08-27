@@ -1,0 +1,30 @@
+/*###### MEDIDAS ######*/
+.carousel-inner img {
+  margin: auto; }
+
+@media screen and (min-width: 1024px) {
+  .carousel-inner {
+    height: 600px; } }
+
+.carousel-indicators li {
+  height: 10px;
+  width: 50px;
+  background-color: aliceblue;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  cursor: pointer; }
+.carousel-indicators .active {
+  background-color: #1D9C73; }
+
+.carousel-control-prev, .carousel-control-next {
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-color: #1D9C73;
+  border: 1px solid #115b43; }
+
+/*# sourceMappingURL=bootstrap--carousel.css.map */

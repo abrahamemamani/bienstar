@@ -1,0 +1,5 @@
+$color: #1D9C73;
+.bar-top{
+    background-color: $color;
+    border-bottom: 1px solid darken($color,10%);
+}

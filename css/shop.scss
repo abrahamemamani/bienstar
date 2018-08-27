@@ -1,0 +1,15 @@
+$color: #1D9C73;
+.shop-wrapper{
+    background-color: #fff;
+    padding: 15px 0;
+    .shop-subtitle{
+        background-color: $color;
+        color: #fff;
+        padding-left: 10px;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .button-wrapper{
+        padding: 10px 0;
+    }
+}

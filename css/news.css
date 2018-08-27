@@ -1,0 +1,15 @@
+.news-wrapper {
+  padding: 20px 0;
+  background-color: #fff; }
+  .news-wrapper .news-card {
+    margin: 2px 0; }
+  .news-wrapper .news__img {
+    border-radius: 10px; }
+  .news-wrapper .circle-topright::before {
+    content: 'Nuevo';
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    top: -15px; }
+
+/*# sourceMappingURL=news.css.map */
