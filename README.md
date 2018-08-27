@@ -1,2 +1,2 @@
 # Bienstar
-Bienstar es un template para una tienda de indumentaria femenina.
+Bienstar es un template para tiendas de indumentaria femenina.
